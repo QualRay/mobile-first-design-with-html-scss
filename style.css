@@ -125,6 +125,13 @@ main {
   .view_2 {
     flex-direction: row;
   }
+  .view_2 button {
+    transition: all 0.3s;
+  }
+  .view_2 button:hover {
+    background-color: #e1ae5b;
+    color: #000;
+  }
   .view_2 .top {
     width: 60%;
     justify-content: space-between;

@@ -138,6 +138,13 @@ main {
   .view_2 {
     flex-direction: row;
 
+    button {
+      transition: all 0.3s;
+      &:hover {
+        background-color: #e1ae5b;
+        color: #000;
+      }
+    }
     .top{
         width: 60%;
         justify-content: space-between;
